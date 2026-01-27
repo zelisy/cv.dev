@@ -1,18 +1,20 @@
 export const projects = [
-    {
-      title: "E-Ticaret Sitesi",
-      desc: "WordPress + WooCommerce ile kurumsal e-ticaret sitesi.",
-      link: "#"
-    },
-    {
-      title: "Portfolio",
-      desc: "Next.js + Tailwind ile modern portföy sitesi.",
-      link: "#"
-    },
-    {
-      title: "Blog Platformu",
-      desc: "Prisma + SQLite + Next.js ile blog uygulaması.",
-      link: "#"
-    }
-  ];
-  
+  {
+    title: "Kaldırım Sahaf Kitap Stok Takip Sistemi",
+    desc: "Kitap stoklarının dijital ortamda takip edilmesini sağlayan kapsamlı bir stok yönetim sistemi.",
+    link: "#",
+    technologies: ["React", "Next.js", "TypeScript", "Prisma"]
+  },
+  {
+    title: "Şeyma Butik E-Ticaret Sitesi",
+    desc: "Modern ve kullanıcı dostu arayüzle tasarlanmış e-ticaret platformu.",
+    link: "#",
+    technologies: ["React", "Next.js", "Tailwind CSS", "WooCommerce"]
+  },
+  {
+    title: "WooCommerce ile E-Ticaret Web Sitesi",
+    desc: "WordPress ve WooCommerce kullanarak geliştirilmiş ölçeklenebilir e-ticaret çözümü.",
+    link: "#",
+    technologies: ["WordPress", "WooCommerce", "PHP", "MySQL"]
+  }
+];
