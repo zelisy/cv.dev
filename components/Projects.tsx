@@ -7,6 +7,7 @@ type Project = {
   desc: string;
   link: string;
   technologies: string[];
+  image?: string;
 };
 
 export default function Projects() {
@@ -30,30 +31,50 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
-            className="border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:bg-white/10 hover:border-white/20 transition-all duration-300 flex flex-col"
+            className="group relative border border-white/15 bg-white/5/5 backdrop-blur-xl rounded-3xl p-5 md:p-6 transition-all duration-500 flex flex-col overflow-hidden hover:border-indigo-400/60 hover:bg-white/10 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(129,140,248,0.55)]"
           >
-            <h3 className="text-xl md:text-2xl font-semibold mb-3">{project.title}</h3>
-            <p className="text-gray-400 mb-4 flex-grow text-sm md:text-base leading-relaxed">{project.desc}</p>
+            {/* Görsel bölüm / Glassmorphism + Hover Zoom */}
+            <div className="relative -mx-5 -mt-5 mb-5 h-44 md:h-48 overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-500/60 via-purple-500/40 to-blue-500/40">
+              {project.image && (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-out group-hover:scale-110"
+                />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+            </div>
+
+            {/* Başlık ve açıklama */}
+            <h3 className="text-xl md:text-2xl font-semibold mb-2 tracking-tight">
+              {project.title}
+            </h3>
+            <p className="text-gray-300/80 mb-4 flex-grow text-sm md:text-base leading-relaxed">
+              {project.desc}
+            </p>
             
-            {/* Teknoloji etiketleri */}
+            {/* Teknoloji etiketleri - yarı şeffaf badge'ler */}
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="text-xs px-2 py-1 bg-white/10 border border-white/20 rounded-md"
+                  className="text-[11px] uppercase tracking-wide px-2.5 py-1 rounded-full bg-white/10 border border-white/20 text-indigo-100/90 backdrop-blur-sm"
                 >
                   {tech}
                 </span>
               ))}
             </div>
 
-            {/* Projeyi Görüntüle butonu */}
-            <a
-              href={project.link}
-              className="inline-block text-center border border-white/20 px-4 py-2 rounded-lg hover:bg-white/10 transition-colors text-sm md:text-base"
-            >
-              Projeyi Görüntüle
-            </a>
+            {/* Projeyi Görüntüle butonu - kart hover ile slide-up */}
+            <div className="mt-2 flex justify-end">
+              <a
+                href={project.link}
+                className="inline-flex items-center gap-2 rounded-full border border-indigo-400/60 bg-indigo-500/10 px-4 py-2 text-xs md:text-sm font-medium text-indigo-100/90 opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out hover:bg-indigo-500/25 hover:border-indigo-300"
+              >
+                Siteyi Ziyaret Et
+                <span className="text-base">↗</span>
+              </a>
+            </div>
           </motion.div>
         ))}
       </div>

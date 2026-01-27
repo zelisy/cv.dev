@@ -79,7 +79,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="flex flex-wrap justify-center gap-3 mb-6"
           >
-            {/* Frontend Developer Badge */}
+            {/* Frontend Developer & Web Developer Badge */}
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm transition-all duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export default function Hero() {
                 <path d="M3 9h18" />
                 <path d="M9 21V9" />
               </svg>
-              <span className="text-sm md:text-base">Yazılım Geliştiricisi</span>
+              <span className="text-sm md:text-base">Yazılım Geliştiricisi & Web Developer</span>
             </div>
 
             {/* Konum Badge */}

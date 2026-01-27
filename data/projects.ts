@@ -8,13 +8,13 @@ export const projects = [
   {
     title: "Şeyma Butik E-Ticaret Sitesi",
     desc: "Modern ve kullanıcı dostu arayüzle tasarlanmış e-ticaret platformu.",
-    link: "#",
+    link: "https://seymabutikofficial.com",
     technologies: ["React", "Next.js", "Tailwind CSS", "WooCommerce"]
   },
   {
-    title: "WooCommerce ile E-Ticaret Web Sitesi",
-    desc: "WordPress ve WooCommerce kullanarak geliştirilmiş ölçeklenebilir e-ticaret çözümü.",
-    link: "#",
-    technologies: ["WordPress", "WooCommerce", "PHP", "MySQL"]
+    title: "Agroviatr",
+    desc: "Agroviatr, tarım ve teknoloji odaklı modern bir web platformudur.",
+    link: "https://agroviatr.com",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
   }
 ];
