@@ -46,7 +46,7 @@ export default function Experience() {
                                 <div className="space-y-6">
                                     <h4 className="text-xl font-semibold text-indigo-100/90 flex items-center gap-2">
                                         <span className="w-8 h-[2px] bg-indigo-500/50"></span>
-                                        Projeler
+                                        Bazı Projeler
                                     </h4>
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         {exp.projects.map((project, pIdx) => (
