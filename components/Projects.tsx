@@ -13,7 +13,7 @@ type Project = {
 export default function Projects() {
   return (
     <section className="min-h-screen px-4 md:px-10 py-20 bg-black text-white">
-      <motion.h2 
+      <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -52,7 +52,7 @@ export default function Projects() {
             <p className="text-gray-300/80 mb-4 flex-grow text-sm md:text-base leading-relaxed">
               {project.desc}
             </p>
-            
+
             {/* Teknoloji etiketleri - yarı şeffaf badge'ler */}
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech) => (

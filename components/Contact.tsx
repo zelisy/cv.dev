@@ -13,7 +13,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="rounded-3xl bg-white/5 backdrop-blur-md border border-white/10 p-8 md:p-12 transition-all duration-500"
         >
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -36,7 +36,7 @@ export default function Contact() {
             >
               zelissyldrm0@gmail.com
             </a>
-            
+
             <a
               href="tel:+905466259657"
               className="text-gray-300 hover:text-white transition-colors text-base md:text-lg"
