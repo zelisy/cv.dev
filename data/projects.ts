@@ -1,21 +1,39 @@
 export const projects = [
   {
-    title: "Kaldırım Sahaf Kitap Stok Takip Sistemi",
-    desc: "Kitap stoklarının dijital ortamda takip edilmesini sağlayan kapsamlı bir stok yönetim sistemi.",
+    title: {
+      tr: "Kaldırım Sahaf Kitap Stok Takip Sistemi",
+      en: "Kaldırım Sahaf Book Stock Tracking System"
+    },
+    desc: {
+      tr: "Kitap stoklarının dijital ortamda takip edilmesini sağlayan kapsamlı bir stok yönetim sistemi.",
+      en: "A comprehensive stock management system that enables digital tracking of book stocks."
+    },
     link: "#",
     technologies: ["React", "Next.js", "TypeScript", "Prisma"],
-    image: "/kaldirim_sahaf.png"
+    image: "/kaldirimsahaf.jpg"
   },
   {
-    title: "Şeyma Butik E-Ticaret Sitesi",
-    desc: "Modern ve kullanıcı dostu arayüzle tasarlanmış e-ticaret platformu.",
+    title: {
+      tr: "Şeyma Butik E-Ticaret Sitesi",
+      en: "Şeyma Butik E-Commerce Site"
+    },
+    desc: {
+      tr: "Modern ve kullanıcı dostu arayüzle tasarlanmış e-ticaret platformu.",
+      en: "An e-commerce platform designed with a modern and user-friendly interface."
+    },
     link: "https://seymabutikofficial.com",
     technologies: ["Woocommerce", "PHP", "HTML", "CSS"],
-    image: "/cicekli stand.jpeg"
+    image: "/seymabutikresim.webp"
   },
   {
-    title: "Agroviatr",
-    desc: "Agroviatr, tarım ve teknoloji odaklı modern bir web platformudur.",
+    title: {
+      tr: "Agroviatr",
+      en: "Agroviatr"
+    },
+    desc: {
+      tr: "Agroviatr, tarım ve teknoloji odaklı modern bir web platformudur.",
+      en: "Agroviatr is a modern web platform focused on agriculture and technology."
+    },
     link: "https://agroviatr.com",
     technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     image: "/arkaplan1.jpg"

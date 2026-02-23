@@ -1,16 +1,27 @@
 "use client";
 import { motion } from "framer-motion";
 import { projects } from "../data/projects";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/data/translations";
 
 type Project = {
-  title: string;
-  desc: string;
+  title: {
+    tr: string;
+    en: string;
+  };
+  desc: {
+    tr: string;
+    en: string;
+  };
   link: string;
   technologies: string[];
   image?: string;
 };
 
 export default function Projects() {
+  const { language } = useLanguage();
+  const t = translations[language].projects;
+
   return (
     <section className="min-h-screen px-4 md:px-10 py-20 bg-black text-white">
       <motion.h2
@@ -20,13 +31,13 @@ export default function Projects() {
         transition={{ duration: 0.6 }}
         className="text-3xl md:text-4xl font-bold mb-16 text-center"
       >
-        Son Projeler
+        {t.title}
       </motion.h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project: Project, index: number) => (
           <motion.div
-            key={project.title}
+            key={project.title.tr}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -38,7 +49,7 @@ export default function Projects() {
               {project.image && (
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={project.title[language]}
                   className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-out group-hover:scale-110"
                 />
               )}
@@ -47,10 +58,10 @@ export default function Projects() {
 
             {/* Başlık ve açıklama */}
             <h3 className="text-xl md:text-2xl font-semibold mb-2 tracking-tight">
-              {project.title}
+              {project.title[language]}
             </h3>
             <p className="text-gray-300/80 mb-4 flex-grow text-sm md:text-base leading-relaxed">
-              {project.desc}
+              {project.desc[language]}
             </p>
 
             {/* Teknoloji etiketleri - yarı şeffaf badge'ler */}
@@ -69,9 +80,9 @@ export default function Projects() {
             <div className="mt-2 flex justify-end">
               <a
                 href={project.link}
-                className="inline-flex items-center gap-2 rounded-full border border-indigo-400/60 bg-indigo-500/10 px-4 py-2 text-xs md:text-sm font-medium text-indigo-100/90 opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out hover:bg-indigo-500/25 hover:border-indigo-300"
+                className="inline-flex items-center gap-2 rounded-full border border-indigo-400/60 bg-indigo-500/10 px-4 py-2 text-xs md:text-sm font-medium text-indigo-100/90 sm:opacity-0 sm:translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out hover:bg-indigo-500/25 hover:border-indigo-300"
               >
-                Siteyi Ziyaret Et
+                {t.visitSite}
                 <span className="text-base">↗</span>
               </a>
             </div>

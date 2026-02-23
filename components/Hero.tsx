@@ -2,17 +2,34 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/data/translations";
 
 export default function Hero() {
   const [imageError, setImageError] = useState(false);
+  const { language, setLanguage } = useLanguage();
+  const t = translations[language].hero;
+
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-4 md:px-10 bg-transparent text-white relative pt-20">
+    <section className="min-h-screen flex flex-col justify-center items-center px-4 md:px-10 bg-transparent text-white relative pt-32 pb-10">
       {/* Dil Seçici - Sağ Üst */}
-      <div className="absolute top-6 right-6 flex gap-2">
-        <button className="px-3 py-1 rounded-lg border border-indigo-500/30 bg-indigo-500/10 text-indigo-100 text-sm backdrop-blur-md">
+      <div className="absolute top-6 right-4 sm:right-10 flex gap-2 z-50">
+        <button
+          onClick={() => setLanguage('tr')}
+          className={`px-3 py-1 rounded-lg border transition backdrop-blur-md text-sm ${language === 'tr'
+            ? 'border-indigo-500/30 bg-indigo-500/10 text-indigo-100'
+            : 'border-white/10 text-white/50 hover:border-white/30'
+            }`}
+        >
           TR
         </button>
-        <button className="px-3 py-1 rounded-lg border border-white/10 text-white/50 text-sm hover:border-white/30 transition backdrop-blur-md">
+        <button
+          onClick={() => setLanguage('en')}
+          className={`px-3 py-1 rounded-lg border transition backdrop-blur-md text-sm ${language === 'en'
+            ? 'border-indigo-500/30 bg-indigo-500/10 text-indigo-100'
+            : 'border-white/10 text-white/50 hover:border-white/30'
+            }`}
+        >
           EN
         </button>
       </div>
@@ -91,7 +108,7 @@ export default function Hero() {
                 <path d="M3 9h18" />
                 <path d="M9 21V9" />
               </svg>
-              <span className="text-sm md:text-base text-gray-200">Yazılım Geliştiricisi & Web Developer</span>
+              <span className="text-sm md:text-base text-gray-200">{t.role}</span>
             </div>
 
             {/* Konum Badge */}
@@ -111,7 +128,7 @@ export default function Hero() {
                 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <span className="text-sm md:text-base text-gray-200">Ankara/Türkiye</span>
+              <span className="text-sm md:text-base text-gray-200">{t.location}</span>
             </div>
           </motion.div>
         </div>

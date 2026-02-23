@@ -1,19 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/data/translations";
 
 const skills = [
   "JavaScript",
   "TypeScript",
-  "Python",
   "C++",
   "React",
   "Next.js",
   "Tailwind CSS",
   "Node.js",
-  "PostgreSQL",
   "SQL",
-  "WordPress",
-  "Google Ads",
   "Web Server",
   "Firebase",
   "Mail Server",
@@ -21,8 +19,11 @@ const skills = [
 ];
 
 export default function Skills() {
+  const { language } = useLanguage();
+  const t = translations[language].skills;
+
   return (
-    <section className="min-h-screen px-4 md:px-10 py-20 bg-transparent text-white flex items-center">
+    <section className="min-h-[50vh] md:min-h-screen px-4 md:px-10 py-10 md:py-20 bg-transparent text-white flex items-center">
       <div className="w-full max-w-5xl mx-auto">
         {/* Kart */}
         <motion.div
@@ -30,7 +31,7 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="rounded-[2.5rem] bg-white/5 backdrop-blur-xl border border-white/10 p-8 md:p-12 transition-all duration-500 shadow-[0_0_50px_rgba(79,70,229,0.1)]"
+          className="rounded-3xl md:rounded-[2.5rem] bg-white/5 backdrop-blur-xl border border-white/10 p-6 md:p-12 transition-all duration-500 shadow-[0_0_50px_rgba(79,70,229,0.1)]"
         >
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -39,7 +40,7 @@ export default function Skills() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-white via-indigo-200 to-indigo-400 bg-clip-text text-transparent"
           >
-            Neler Yapıyorum?
+            {t.title}
           </motion.h2>
 
           <motion.div
