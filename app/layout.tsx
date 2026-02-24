@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Zeliha Yıldırım - Frontend Developer",
-  description: "Modern web interfaces developer",
+  title: "Zeliha Yıldırım | Software Developer",
+  description: "Yazılım Geliştirici | Web ve Sunucu Altyapıları",
 };
 
 export default function RootLayout({

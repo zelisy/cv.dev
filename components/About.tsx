@@ -28,8 +28,8 @@ const timelineItems = [
   },
   {
     title: {
-      tr: "Ondokuz Mayıs Üniversitesi: Bilgisayar Programcılığı",
-      en: "Ondokuz Mayıs University: Computer Programming"
+      tr: "Ondokuz Mayıs Üniversitesi: Bilgisayar Teknolojileri",
+      en: "Ondokuz Mayıs University: Computer Technologies"
     },
     date: {
       tr: "2023 - 2025",
