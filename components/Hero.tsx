@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-[#030014] overflow-hidden relative shadow-[0_0_30px_rgba(79,70,229,0.4)]">
               {!imageError ? (
                 <Image
-                  src="/BEN.jpeg"
+                  src="/BEN1.png"
                   alt="Zeliha Yıldırım"
                   width={160}
                   height={160}

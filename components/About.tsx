@@ -22,8 +22,8 @@ const timelineItems = [
       en: "2025"
     },
     description: {
-      tr: "Tarım operasyonlarının dijitalizasyonu kapsamında; üretici takibi, maliyet hesaplama ve raporlama modüllerini içeren kapsamlı web platformlarının geliştirilmesinde aktif rol aldım.",
-      en: "Within the scope of digitalization of agricultural operations; I took an active role in the development of comprehensive web platforms including producer tracking, cost calculation, and reporting modules."
+      tr: "Tarım operasyonlarının dijitalizasyonu kapsamında; üretici takibi, maliyet hesaplama ve raporlama modüllerini içeren kapsamlı web uygulamasının geliştirilmesinde aktif rol aldım.",
+      en: "Within the scope of digitalization of agricultural operations; I took an active role in the development of comprehensive web application including producer tracking, cost calculation, and reporting modules."
     },
   },
   {
@@ -36,8 +36,8 @@ const timelineItems = [
       en: "2023 - 2025"
     },
     description: {
-      tr: "Bilgisayar Programcılığı bölümünden başarıyla mezun olarak yazılım geliştirme temelleri ve modern programlama teknikleri üzerine yetkinlik kazandım.",
-      en: "I successfully graduated from the Computer Programming department, gaining competence in software development fundamentals and modern programming techniques."
+      tr: "Bilgisayar Teknolojileri bölümünden başarıyla mezun olarak yazılım geliştirme temelleri ve modern programlama teknikleri üzerine yetkinlik kazandım.",
+      en: "I successfully graduated from the Computer Technologies department, gaining competence in software development fundamentals and modern programming techniques."
     },
   },
 ];

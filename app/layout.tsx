@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Zeliha Yıldırım | Software Developer",
   description: "Yazılım Geliştirici | Web ve Sunucu Altyapıları",
+  icons: {
+    icon: "/ZY.png",
+  },
 };
 
 export default function RootLayout({
