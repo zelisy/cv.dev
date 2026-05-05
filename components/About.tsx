@@ -22,22 +22,32 @@ const timelineItems = [
       en: "2025"
     },
     description: {
-      tr: "Tarım operasyonlarının dijitalizasyonu kapsamında; üretici takibi, maliyet hesaplama ve raporlama modüllerini içeren kapsamlı web uygulamasının geliştirilmesinde aktif rol aldım.",
-      en: "Within the scope of digitalization of agricultural operations; I took an active role in the development of comprehensive web application including producer tracking, cost calculation, and reporting modules."
-    },
-  },
-  {
-    title: {
-      tr: "Ondokuz Mayıs Üniversitesi: Bilgisayar Teknolojileri",
-      en: "Ondokuz Mayıs University: Computer Technologies"
-    },
-    date: {
-      tr: "2023 - 2025",
-      en: "2023 - 2025"
-    },
-    description: {
-      tr: "Bilgisayar Teknolojileri bölümünden başarıyla mezun olarak yazılım geliştirme temelleri ve modern programlama teknikleri üzerine yetkinlik kazandım.",
-      en: "I successfully graduated from the Computer Technologies department, gaining competence in software development fundamentals and modern programming techniques."
+      tr: (
+        <>
+          Tarım operasyonlarının dijitalizasyonu kapsamında; üretici takibi, maliyet hesaplama ve raporlama modüllerini içeren kapsamlı web uygulaması geliştirdim.{" "}
+          <a
+            href="https://agroviatr.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-indigo-300 hover:text-indigo-200 underline underline-offset-4"
+          >
+            agroviatr.com
+          </a>
+        </>
+      ),
+      en: (
+        <>
+          Within the scope of digitalizing agricultural operations, I took an active role in developing a comprehensive web application including producer tracking, cost calculation, and reporting modules.{" "}
+          <a
+            href="https://agroviatr.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-indigo-300 hover:text-indigo-200 underline underline-offset-4"
+          >
+            agroviatr.com
+          </a>
+        </>
+      )
     },
   },
 ];
