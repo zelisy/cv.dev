@@ -5,14 +5,25 @@ import { translations } from "@/data/translations";
 
 const timelineItems = [
   {
-    title: "EGY Yazılım ve Bilişim Teknolojileri",
+    title: "Bulut İletişim ve Telekomünikasyon",
     date: {
-      tr: "2025 - Halen",
-      en: "2025 - Present"
+      tr: "2026 - Halen",
+      en: "2026 - Present"
     },
     description: {
-      tr: "Web Developer & Web Designer olarak kurumsal kimlik çalışmaları, modern e-ticaret çözümleri (WooCommerce) ve IT altyapı yönetim süreçlerini üstleniyorum. Sistem sürekliliğini sağlamak adına Sunucu ve Mail Server operasyonlarını yönetiyorum.",
-      en: "As a Web Developer & Web Designer, I undertake corporate identity works, modern e-commerce solutions (WooCommerce), and IT infrastructure management processes. I manage Server and Mail Server operations to ensure system continuity."
+      tr: "IT Uzmanı olarak şirketin bilişim ve haberleşme altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği ve teknik IT operasyonlarını yürütüyorum.",
+      en: "As an IT Specialist, I manage the company's IT and telecommunication infrastructure, system continuity, network security, and technical IT operations."
+    },
+  },
+  {
+    title: "EGY Yazılım ve Bilişim Teknolojileri",
+    date: {
+      tr: "2025 - 2026",
+      en: "2025 - 2026"
+    },
+    description: {
+      tr: "Web Developer & Web Designer olarak kurumsal kimlik çalışmaları, modern e-ticaret çözümleri (WooCommerce) ve IT altyapı yönetim süreçlerini üstlendim. Sistem sürekliliğini sağlamak adına Sunucu ve Mail Server operasyonlarını yönettim.",
+      en: "As a Web Developer & Web Designer, I undertook corporate identity works, modern e-commerce solutions (WooCommerce), and IT infrastructure management processes. I managed Server and Mail Server operations to ensure system continuity."
     },
   },
   {
