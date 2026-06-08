@@ -10,9 +10,9 @@ export const translations = {
             ctaContact: "İletişime Geç",
         },
         about: {
-            title: "Biyografi",
+            title: "Neler Yapıyorum?",
             careerTitle: "Eğitim & Kariyer",
-            bio: "2025 yılında Ondokuz Mayıs Üniversitesi Bilgisayar Programcılığı bölümünden mezun oldum. Web tabanlı uygulamalar ve e-commerce projeleri geliştirme konusunda deneyim sahibiyim. React ile frontend, Prisma ORM ile veritabanı yönetimi ve WooCommerce kullanarak ölçeklenebilir projeler geliştirdim. Analiz, test ve hata ayıklama süreçlerinde güçlü bir altyapıya sahibim.",
+            bio: "Kurumsal sunucu altyapılarının kurulumundan Linux tabanlı sistem optimizasyonlarına ve güvenli veri göçü operasyonlarına kadar uçtan uca sistem & sunucu yönetimi yürütüyorum. React ve Next.js ekosistemiyle, sunucu performansıyla uyumlu, ölçeklenebilir ve yüksek hızlı modern web uygulamaları geliştiriyorum. BT altyapı ve ağ güvenliği tarafında kurumsal güvenlik protokollerini uyguluyor; domain ve mail sunucularının (SMTP/IMAP) teknik yapılandırmalarını gerçekleştiriyorum. Ayrıca WooCommerce tabanlı e-ticaret projelerinde ödeme geçidi ve API entegrasyonlarını optimize ederek sürdürülebilir dijital satış kanalları oluşturuyorum.",
             present: "Halen",
         },
         skills: {
@@ -41,9 +41,9 @@ export const translations = {
             ctaContact: "Get in Touch",
         },
         about: {
-            title: "Biography",
+            title: "What I Do",
             careerTitle: "Education & Career",
-            bio: "I graduated from Ondokuz Mayıs University, Computer Programming department in 2025. I have experience in developing web-based applications and e-commerce projects. I have developed scalable projects using React for frontend, Prisma ORM for database management, and WooCommerce. I have a strong background in analysis, testing, and debugging processes.",
+            bio: "I handle end-to-end system & server operations, from setting up enterprise server infrastructures to Linux-based optimizations and secure data migration processes. Using the React and Next.js ecosystem, I build scalable, high-performance modern web applications aligned with server performance. On the IT infrastructure and network security side, I implement corporate security protocols and configure domain and mail servers (SMTP/IMAP). I also optimize payment gateway and API integrations in WooCommerce-based e-commerce projects to create sustainable digital sales channels.",
             present: "Present",
         },
         skills: {
