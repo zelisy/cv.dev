@@ -1,11 +1,11 @@
 export const translations = {
     tr: {
         hero: {
-            role: "IT Uzmanı & Web Geliştirici",
+            role: "IT & Web Geliştirici",
             location: "Ankara, Türkiye",
             greeting: "Merhaba, ben",
             tagline: "Fikirleri modern web uygulamalarına ve güvenli sistemlere dönüştürüyorum.",
-            description: "Merhaba, ben Zeliha 👋\n\nFull Stack Developer ve IT Uzmanı olarak web teknolojileri, e-ticaret çözümleri ve sistem altyapıları üzerine çalışıyorum.\n\nModern web uygulamaları geliştiriyor, sunucu ve ağ sistemleriyle dijital projelerin teknik altyapılarını yönetiyorum.",
+            description: "Merhaba, ben Zeliha\n\nFull Stack Developer olarak web teknolojileri, e-ticaret çözümleri geliştiriyor, aynı zamanda IT departmanında sistem altyapıları üzerine çalışıyorum.\n\nModern web uygulamaları geliştiriyor, sunucu ve ağ sistemleriyle dijital projelerin teknik altyapılarını yönetiyorum.",
             ctaProjects: "Projelerimi Gör",
             ctaContact: "İletişime Geç",
         },
@@ -32,11 +32,11 @@ export const translations = {
     },
     en: {
         hero: {
-            role: "IT Specialist & Web Developer",
+            role: "IT & Web Developer",
             location: "Ankara, Turkey",
             greeting: "Hi, I'm",
             tagline: "Transforming ideas into modern web apps and secure systems.",
-            description: "Hi, I'm Zeliha 👋\n\nAs a Full Stack Developer and IT Specialist, I work on web technologies, e-commerce solutions, and system infrastructures.\n\nI develop modern web applications and manage the technical infrastructure of digital projects with server and network systems.",
+            description: "Hi, I'm Zeliha\n\nAs a Full Stack Developer, I work on web technologies and e-commerce solutions, while also managing system infrastructures in the IT department.\n\nI develop modern web applications and manage the technical infrastructure of digital projects with server and network systems.",
             ctaProjects: "View Projects",
             ctaContact: "Get in Touch",
         },

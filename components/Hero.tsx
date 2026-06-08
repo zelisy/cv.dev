@@ -17,21 +17,19 @@ export default function Hero() {
       <div className="absolute top-6 right-4 sm:right-10 flex gap-2 z-50">
         <button
           onClick={() => setLanguage("tr")}
-          className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${
-            language === "tr"
+          className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${language === "tr"
               ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
               : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
-          }`}
+            }`}
         >
           TR
         </button>
         <button
           onClick={() => setLanguage("en")}
-          className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${
-            language === "en"
+          className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${language === "en"
               ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
               : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
-          }`}
+            }`}
         >
           EN
         </button>
@@ -190,11 +188,10 @@ export default function Hero() {
               <div className="flex gap-1.5 ml-4 flex-grow justify-start">
                 <button
                   onClick={() => setActiveTab("ts")}
-                  className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${
-                    activeTab === "ts"
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${activeTab === "ts"
                       ? "bg-[#07050f] text-indigo-300 border border-indigo-500/20"
                       : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
-                  }`}
+                    }`}
                 >
                   <span className="text-[10px] px-1 bg-indigo-500/20 text-indigo-400 rounded-sm font-sans font-bold">
                     TS
@@ -203,11 +200,10 @@ export default function Hero() {
                 </button>
                 <button
                   onClick={() => setActiveTab("json")}
-                  className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${
-                    activeTab === "json"
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${activeTab === "json"
                       ? "bg-[#07050f] text-amber-300 border border-amber-500/20"
                       : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
-                  }`}
+                    }`}
                 >
                   <span className="text-[10px] px-1 bg-amber-500/20 text-amber-400 rounded-sm font-sans font-bold">
                     &#123;&#125;

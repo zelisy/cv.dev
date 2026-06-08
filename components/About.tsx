@@ -11,8 +11,8 @@ const timelineItems = [
       en: "2026 - Present"
     },
     description: {
-      tr: "IT Uzmanı olarak şirketin bilişim ve haberleşme altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği ve teknik IT operasyonlarını yürütüyorum.",
-      en: "As an IT Specialist, I manage the company's IT and telecommunication infrastructure, system continuity, network security, and technical IT operations."
+      tr: "IT departmanında şirketin bilişim ve haberleşme altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği ve teknik IT operasyonlarını yürütüyorum.",
+      en: "In the IT department, I manage the company's IT and telecommunication infrastructure, system continuity, network security, and technical IT operations."
     },
   },
   {
