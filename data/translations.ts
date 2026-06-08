@@ -3,7 +3,6 @@ export const translations = {
         hero: {
             role: "IT & Web Geliştirici",
             location: "Ankara, Türkiye",
-            greeting: "Merhaba, ben",
             tagline: "Fikirleri modern web uygulamalarına ve güvenli sistemlere dönüştürüyorum.",
             description: "Merhaba, ben Zeliha\n\nFull Stack Developer olarak web teknolojileri, e-ticaret çözümleri geliştiriyor, aynı zamanda IT departmanında sistem altyapıları üzerine çalışıyorum.\n\nModern web uygulamaları geliştiriyor, sunucu ve ağ sistemleriyle dijital projelerin teknik altyapılarını yönetiyorum.",
             ctaProjects: "Projelerimi Gör",

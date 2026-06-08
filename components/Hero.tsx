@@ -18,8 +18,8 @@ export default function Hero() {
         <button
           onClick={() => setLanguage("tr")}
           className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${language === "tr"
-              ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
-              : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
+            ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
+            : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
             }`}
         >
           TR
@@ -27,8 +27,8 @@ export default function Hero() {
         <button
           onClick={() => setLanguage("en")}
           className={`px-3 py-1 rounded-lg border transition-all duration-300 backdrop-blur-md text-sm cursor-pointer ${language === "en"
-              ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
-              : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
+            ? "border-indigo-500/30 bg-indigo-500/10 text-indigo-100 shadow-[0_0_15px_rgba(99,102,241,0.2)]"
+            : "border-white/10 text-white/50 hover:border-white/30 hover:text-white"
             }`}
         >
           EN
@@ -43,10 +43,6 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="lg:col-span-7 flex flex-col justify-center text-left relative z-10"
         >
-
-          <h2 className="text-gray-400 text-lg md:text-xl font-medium mb-3 tracking-wide uppercase">
-            {t.greeting}
-          </h2>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 bg-gradient-to-r from-white via-indigo-100 to-purple-400 bg-clip-text text-transparent leading-tight tracking-tight">
             Zeliha Yıldırım
@@ -189,8 +185,8 @@ export default function Hero() {
                 <button
                   onClick={() => setActiveTab("ts")}
                   className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${activeTab === "ts"
-                      ? "bg-[#07050f] text-indigo-300 border border-indigo-500/20"
-                      : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
+                    ? "bg-[#07050f] text-indigo-300 border border-indigo-500/20"
+                    : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
                     }`}
                 >
                   <span className="text-[10px] px-1 bg-indigo-500/20 text-indigo-400 rounded-sm font-sans font-bold">
@@ -201,8 +197,8 @@ export default function Hero() {
                 <button
                   onClick={() => setActiveTab("json")}
                   className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-mono transition-all duration-200 cursor-pointer ${activeTab === "json"
-                      ? "bg-[#07050f] text-amber-300 border border-amber-500/20"
-                      : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
+                    ? "bg-[#07050f] text-amber-300 border border-amber-500/20"
+                    : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
                     }`}
                 >
                   <span className="text-[10px] px-1 bg-amber-500/20 text-amber-400 rounded-sm font-sans font-bold">
