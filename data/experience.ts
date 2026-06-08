@@ -61,13 +61,7 @@ export const experiences: Experience[] = [
           en: "A web platform reflecting corporate brand identity, with modern design lines and a dynamic structure."
         }
       },
-      {
-        name: "baskentoutlet.com.tr",
-        description: {
-          tr: "Kullanıcı dostu arayüz ve gelişmiş alışveriş deneyimi sunan, WooCommerce tabanlı kapsamlı e-ticaret sitesi.",
-          en: "A comprehensive WooCommerce-based e-commerce site offering a user-friendly interface and advanced shopping experience."
-        }
-      },
+
       {
         name: "eg06isg.com",
         description: {

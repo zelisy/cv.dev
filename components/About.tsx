@@ -11,8 +11,8 @@ const timelineItems = [
       en: "2026 - Present"
     },
     description: {
-      tr: "IT departmanında şirketin bilişim ve haberleşme altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği ve teknik IT operasyonlarını yürütüyorum.",
-      en: "In the IT department, I manage the company's IT and telecommunication infrastructure, system continuity, network security, and technical IT operations."
+      tr: "IT Uzmanı olarak şirketin bilişim ve haberleşme altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği ve teknik IT operasyonlarını yürütüyorum.",
+      en: "As an IT Specialist, I manage the company's IT and telecommunication infrastructure, system continuity, network security, and technical IT operations."
     },
   },
   {
@@ -29,8 +29,8 @@ const timelineItems = [
   {
     title: "Agrovia Tarım Sanayi ve Ticaret",
     date: {
-      tr: "2025",
-      en: "2025"
+      tr: "2024",
+      en: "2024"
     },
     description: {
       tr: (
