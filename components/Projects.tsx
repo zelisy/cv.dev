@@ -23,7 +23,7 @@ export default function Projects() {
   const t = translations[language].projects;
 
   return (
-    <section className="min-h-screen px-4 md:px-10 py-20 bg-black text-white">
+    <section id="projects" className="min-h-screen px-4 md:px-10 py-20 bg-black text-white">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

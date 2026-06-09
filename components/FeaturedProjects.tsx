@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
   const featured = (projects as Project[]).filter((p) => FEATURED_LINKS.has(p.link));
 
   return (
-    <section className="min-h-[60vh] px-4 md:px-10 py-20 bg-black text-white">
+    <section id="projects" className="min-h-[60vh] px-4 md:px-10 py-20 bg-black text-white">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -8,7 +8,7 @@ export default function Contact() {
   const t = translations[language].contact;
 
   return (
-    <section className="min-h-screen px-4 md:px-10 py-20 bg-black text-white flex flex-col justify-center items-center">
+    <section id="contact" className="min-h-screen px-4 md:px-10 py-20 bg-black text-white flex flex-col justify-center items-center">
       <div className="w-full max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
