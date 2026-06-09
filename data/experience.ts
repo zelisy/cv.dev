@@ -69,6 +69,15 @@ export const experiences: Experience[] = [
           en: "A web site providing services in the field of occupational health and safety, with professional content management and corporate profile."
         }
       },
+
+      {
+        name: "eggrupsaleg.com",
+        description: {
+          tr: "Endüstriyel Pompalarda Yeni Nesil Akıllı Koruma Teknolojisi için tasarlanan SALEG tanıtım web sitesi.",
+          en: "SALEG's promotional website is designed for next-generation intelligent protection technology in industrial pumps."
+        }
+      },
+
       {
         name: "EGO Makine İkmal Uygulaması",
         description: {
