@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Zeliha Yıldırım | Software Developer",
-  description: "Yazılım Geliştirici | Web ve Sunucu Altyapıları",
+  title: "Zeliha Yıldırım | Software Developer & IT Specialist",
+  description: "Yazılım Geliştirici | IT Specialist",
   icons: {
     icon: "/ZY.png",
   },
