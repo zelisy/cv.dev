@@ -46,16 +46,7 @@ export default function FeaturedProjects() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group relative border border-white/10 bg-white/5 backdrop-blur-xl rounded-3xl p-5 md:p-6 transition-all duration-500 flex flex-col overflow-hidden hover:border-indigo-400/60 hover:bg-white/10 hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(129,140,248,0.45)]"
             >
-              <div className="relative -mx-5 -mt-5 mb-5 h-44 md:h-52 overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-500/60 via-purple-500/40 to-blue-500/40">
-                {project.image && (
-                  <img
-                    src={project.image}
-                    alt={project.title[language]}
-                    className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-out group-hover:scale-110"
-                  />
-                )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              </div>
+
 
               <h3 className="text-xl md:text-2xl font-semibold mb-2 tracking-tight">
                 {project.title[language]}
