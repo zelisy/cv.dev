@@ -27,16 +27,16 @@ export const experiences: Experience[] = [
   {
     company: "Bulut İletişim ve Telekomünikasyon",
     role: {
-      tr: "BT Destek ve Operasyon",
-      en: "IT Support & Operations"
+      tr: "IT Sorumlusu",
+      en: "IT Officer"
     },
     period: {
       tr: "2026 - Halen",
       en: "2026 - Present"
     },
     description: {
-      tr: "BT Destek ve Operasyon departmanında görev alarak şirket içi teknik destek süreçlerine katkı sağlıyor, sistem ve ağ altyapısının sorunsuz işleyişini destekliyorum. Kullanıcı talepleri, donanım/yazılım sorunları ve operasyonel süreçlerin yönetiminde aktif rol üstleniyorum.",
-      en: "As part of the IT Support & Operations team, I contribute to internal technical support processes and help ensure the smooth operation of system and network infrastructure. I actively take part in managing user requests, hardware/software issues, and day-to-day operational processes."
+      tr: "IT departmanında şirketin bilgi teknolojileri altyapısının yönetimi, sistem sürekliliğinin sağlanması, ağ güvenliği, sunucu bakımları, teknik operasyonlar ve IT destek süreçlerinden sorumluyum.",
+      en: "Responsible for managing the company's IT infrastructure, ensuring system continuity, maintaining network security, performing server maintenance, overseeing technical operations, and providing IT support."
     }
   },
   {
