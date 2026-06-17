@@ -28,7 +28,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
-            className="md:col-span-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 flex flex-col justify-between min-h-[160px] group relative overflow-hidden"
+            className="md:col-span-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 flex flex-col justify-between min-h-[160px] group relative overflow-hidden"
           >
             <div className="flex justify-between items-start">
               <div className="p-3 rounded-2xl bg-indigo-500/10 text-indigo-400">
@@ -42,28 +42,6 @@ export default function Contact() {
             </div>
           </motion.a>
 
-          {/* Instagram Card */}
-          <motion.a
-            href="https://instagram.com/zelisy0"
-            target="_blank"
-            rel="noopener noreferrer"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            whileHover={{ scale: 1.02 }}
-            className="md:col-span-2 bg-gradient-to-br from-purple-600 to-pink-500 rounded-3xl p-6 flex flex-col justify-between min-h-[160px] group relative overflow-hidden shadow-[0_0_30px_rgba(236,72,153,0.3)]"
-          >
-            <div className="flex justify-between items-start">
-              <div className="p-3 rounded-2xl bg-white/20 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white group-hover:scale-110 transition-transform"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
-            </div>
-            <div>
-              <p className="text-white font-semibold text-xl">Instagram</p>
-              <p className="text-white/80 text-sm">zelisy0</p>
-            </div>
-          </motion.a>
 
           {/* GitHub Card */}
           <motion.a
